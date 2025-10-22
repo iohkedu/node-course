@@ -46,7 +46,7 @@ const config: Config = {
           label: 'Workshop',
         },
         {
-          href: 'https://github.com/',
+          href: 'https://github.com/iohkedu/node-course',
           label: 'GitHub',
           position: 'right',
         },
