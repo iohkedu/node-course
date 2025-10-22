@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'node-course/**'
   workflow_dispatch:
 
 permissions:
@@ -16,10 +14,6 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
-defaults:
-  run:
-    working-directory: node-course
 
 jobs:
   deploy:
@@ -34,7 +28,6 @@ jobs:
         with:
           node-version: 18
           cache: npm
-          cache-dependency-path: node-course/package-lock.json
       
       - name: Install dependencies
         run: npm ci
@@ -48,7 +41,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'node-course/build'
+          path: './build'
       
       - name: Deploy to GitHub Pages
         id: deployment
