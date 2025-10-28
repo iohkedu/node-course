@@ -33,18 +33,12 @@ const config: Config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Node Workshop',
+      title: 'Node Operations Course',
       logo: {
         alt: 'My Site Logo',
         src: 'img/cardano-stacked-blue.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Workshop',
-        },
         {
           href: 'https://github.com/iohkedu/node-course',
           label: 'GitHub',
