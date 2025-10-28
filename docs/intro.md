@@ -1,17 +1,17 @@
 ---
 id: intro
 slug: /
-title: Workshop Introduction
+title: Course Introduction
 sidebar_position: 1
 ---
 
-# Workshop Introduction
+# Course Introduction
 
-Welcome to the Cardano node workshop mini course! This hands-on workshop will help guide you through setting up and using a Cardano node.
+Welcome to the Cardano Node Operations Course! This hands-on course will help guide you through setting up and using a Cardano node.
 
-## Workshop Environment
+## Course Environment
 
-This guide was developed to work in tandem with the mobile Cardano node Raspberry Pi lab. Though you may use one, a Raspberry Pi computer is not required to complete this course. The course also assumes that you are using SSH to connect to a remote server. You may also work though this guide on a local machine, though some of the commands might look a little different.
+Though this course was designed to utilize the Cardano Mobile Node Lab, a Raspberry Pi is not required. The course also assumes that you are using SSH to connect to a remote server. You may also work though this guide on a local machine, though some of the commands might look a little different.
 
 ## Recommended hardware and Operating System(s) for this course: 
 - Since we will be working on the Preview testnet, anything with at least 4GB or RAM should be OK. Though the more the better.
@@ -32,7 +32,7 @@ This guide was developed to work in tandem with the mobile Cardano node Raspberr
 - Familiarity with blockchain concepts
 - SSH client if connecting to a remote server
 
-## Workshop Format
+## Course Format
 
 This is a practical, hands-on guide where you'll work directly with Cardano tools and infrastructure. 
 
