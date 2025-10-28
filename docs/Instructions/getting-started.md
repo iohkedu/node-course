@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Getting Started
 
-### Welcome to the Cardano node workshop!
+### Welcome to the Cardano Operations Course!
 ![lab1](/img/lab1.jpeg)
 ## Connecting to your server via SSH
 
